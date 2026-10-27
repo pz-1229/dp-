@@ -1,0 +1,28 @@
+# 本地运行
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 构建
+bin/
+.buildozer/
+android-sdk/
+android-ndk/
+*.apk
+*.aab
+
+# 本地数据与预览
+.preview-data/
+.preview-empty/
+.ui-test-data/
+.testtmp/
+tests/_tmp/
+previews/
+.pytest_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
