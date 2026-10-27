@@ -11,7 +11,7 @@ source.exclude_dirs = tests,tools,previews,docs,scripts,.github,.ui-test-data,.p
 source.exclude_patterns = *.pyc,*.pyo,.DS_Store
 
 version = 1.0.0
-requirements = python3,kivy==2.3.1,cython==3.0.11,filetype
+requirements = python3==3.10.12,kivy==2.3.1,cython==0.29.37,filetype
 
 orientation = portrait
 fullscreen = 0
