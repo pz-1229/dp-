@@ -11,7 +11,7 @@ source.exclude_dirs = tests,tools,previews,docs,scripts,.github,.ui-test-data,.p
 source.exclude_patterns = *.pyc,*.pyo,.DS_Store
 
 version = 1.0.0
-requirements = python3,kivy==2.3.1
+requirements = python3,kivy==2.3.1,cython==3.0.11,filetype
 
 orientation = portrait
 fullscreen = 0
@@ -26,6 +26,8 @@ android.api = 33
 android.minapi = 23
 android.ndk = 25b
 android.ndk_api = 23
+android.gradle_version = 7.4.1
+android.java_home = /usr/lib/jvm/java-11-openjdk-amd64
 android.accept_sdk_license = True
 android.private_storage = True
 android.release_artifact = apk
